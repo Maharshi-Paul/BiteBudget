@@ -74,7 +74,7 @@ cd MealMath
 pip install -r requirements.txt
 
 # 3. Run
-python eating_out_vs_food_expense.py
+python main.py
 ```
 
 **Requirements:** Python 3.9+, NumPy, Pandas, Matplotlib and Tkinter. Tkinter ships with the Windows and macOS Python installers. On Linux run `sudo apt install python3-tk`.
@@ -149,7 +149,7 @@ The simplex solver was tested against SciPy's `linprog` and against brute-force 
 
 ```
 MealMath/
-├── eating_out_vs_food_expense.py   # complete application (maths + GUI)
+├── main.py   # complete application (maths + GUI)
 ├── requirements.txt
 ├── README.md
 └── screenshots/
